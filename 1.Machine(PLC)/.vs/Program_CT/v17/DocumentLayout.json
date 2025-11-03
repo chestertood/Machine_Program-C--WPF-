@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\logfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:logfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\tcp_communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:tcp_communication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\plc_comunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:plc_comunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\model2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:model2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page3.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page3.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|c:\\users\\chest\\onedrive\\desktop\\ocr_detection_c#_dev\\1.machine(plc)\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}|Program.csproj|solutionrelative:page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:18:16.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page3.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml.cs",
+              "RelativeDocumentMoniker": "Page3.xaml.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml.cs",
+              "RelativeToolTip": "Page3.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:13:16.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "Page1.xaml.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page1.xaml.cs",
+              "RelativeToolTip": "Page1.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:12:09.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logfile.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Logfile.cs",
+              "RelativeDocumentMoniker": "Logfile.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Logfile.cs",
+              "RelativeToolTip": "Logfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:11:15.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MES.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MES.cs",
+              "RelativeDocumentMoniker": "MES.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MES.cs",
+              "RelativeToolTip": "MES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:33:36.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwF8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:57:10.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:11:41.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCP_Communication.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\TCP_Communication.cs",
+              "RelativeDocumentMoniker": "TCP_Communication.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\TCP_Communication.cs",
+              "RelativeToolTip": "TCP_Communication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:11:34.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page1.xaml",
+              "RelativeDocumentMoniker": "Page1.xaml",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page1.xaml",
+              "RelativeToolTip": "Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:51:52.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "Page2.xaml.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page2.xaml.cs",
+              "RelativeToolTip": "Page2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:13:03.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Readfile.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Readfile.cs",
+              "RelativeDocumentMoniker": "Readfile.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Readfile.cs",
+              "RelativeToolTip": "Readfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:11:29.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PLC_comunication.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\PLC_comunication.cs",
+              "RelativeDocumentMoniker": "PLC_comunication.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\PLC_comunication.cs",
+              "RelativeToolTip": "PLC_comunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:11:24.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MODEL2.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MODEL2.cs",
+              "RelativeDocumentMoniker": "MODEL2.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MODEL2.cs",
+              "RelativeToolTip": "MODEL2.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:03:43.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MODEL1.cs",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MODEL1.cs",
+              "RelativeDocumentMoniker": "MODEL1.cs",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\MODEL1.cs",
+              "RelativeToolTip": "MODEL1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:03:42.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml",
+              "RelativeDocumentMoniker": "Page3.xaml",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml",
+              "RelativeToolTip": "Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:53:23.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page2.xaml",
+              "RelativeDocumentMoniker": "Page2.xaml",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page2.xaml",
+              "RelativeToolTip": "Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:52:31.649Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1478c667-13c9-4fec-95db-936abb0857d6",
+        "Display": 0,
+        "X": 0,
+        "Y": 64,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml",
+              "RelativeDocumentMoniker": "Page3.xaml",
+              "ToolTip": "C:\\Users\\chest\\OneDrive\\Desktop\\OCR_Detection_C#_Dev\\1.Machine(PLC)\\Page3.xaml",
+              "RelativeToolTip": "Page3.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:55:51.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

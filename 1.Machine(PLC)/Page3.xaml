@@ -1,0 +1,148 @@
+﻿<UserControl x:Class="WpfApp1.Page3"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d"
+             >
+
+    <Grid Background="#383a35">
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Background="#de3940" Height="120" >
+                <TextBlock Text="MY PROGRAM" FontSize="60" Foreground="White" Margin="10,13,0,0"/>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="EN : " Foreground="White" Margin="0,5,0,0" FontSize="50" Height="83"/>
+                    <TextBox x:Name="EN_show" Width="300"   FontSize="50" Height="84" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="Model : " Foreground="White" Margin="0,5,0,0" FontSize="50" Height="83"/>
+                    <ComboBox x:Name="product_show" Width="230"  FontSize="50" SelectedIndex="0" Height="82">
+                        <ComboBoxItem Content="MODEL1" FontSize="50" />
+                        <ComboBoxItem Content="MODEL2" FontSize="50"/>
+                    </ComboBox>
+                    <Button x:Name="apply_model_button" Content="Apply" FontSize="50" Width="200"  Margin="10,0,0,0" Click="Apply_Click" Height="86"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                    <TextBlock Text="Open Log : " Foreground="White" Margin="0,23,0,0" FontSize="50" Height="83"/>
+                    <Button Click="Registered_log_Button_Click" BorderThickness="0" Background="Transparent">
+                        <Image Source="Images/Registered_log.png"  HorizontalAlignment="Left" Height="110" Width="102"/>
+                    </Button>
+                    <Button Click="MES_log_Button_Click" BorderThickness="0" Background="Transparent" Margin="20,0,0,0">
+                        <Image Source="Images/MES_log.png"  HorizontalAlignment="Left" Height="110" Width="102" />
+                    </Button>
+                </StackPanel>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Border x:Name="MODEL1_show" BorderBrush="Gray" BorderThickness="1"  Padding="5" Margin="5" Visibility="Collapsed" Width="1227" Height="747">
+                    <StackPanel Orientation="Vertical" Width="1200" >
+                        <StackPanel Orientation="Horizontal" Visibility="Visible">
+                            <StackPanel Orientation="Vertical" Margin="0,0,0,0">
+                                <TextBlock Text="PCB" FontSize="30" Visibility="Hidden"/>
+                                <TextBlock x:Name="PCB_1" Text="PCB_1 :" FontSize="30" Margin="0,10,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_2" Text="PCB_2 :" FontSize="30" Margin="0,10,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_3" Text="PCB_3 :" FontSize="30" Margin="0,11,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_4" Text="PCB_4 :" FontSize="30" Margin="0,12,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_5" Text="PCB_5 :" FontSize="30" Margin="0,13,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_6" Text="PCB_6 :" FontSize="30" Margin="0,13,0,0" Foreground="White"/>
+                                <TextBlock x:Name="PCB_7" Text="PCB_7 :" FontSize="30" Margin="0,13,0,0" Foreground="White"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="275">
+                                <TextBlock Text="Serial Number" FontSize="30" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBox x:Name="serial_number_1" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_2" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_3" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_4" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_5" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_6" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                <TextBox x:Name="serial_number_7" FontSize="30" Margin="0,10,0,0" Width="275" IsReadOnly="True" />
+                                
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="522">
+                                <TextBlock Text="OCR Data" FontSize="30" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBox x:Name="OCR_1" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_2" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_3" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_4" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_5" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_6" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="OCR_7" FontSize="30" Margin="0,10,0,0" Width="522" HorizontalAlignment="Left" IsReadOnly="True" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,40">
+                            <TextBlock Text="Status :" FontSize="30"   Foreground="White"/>
+                            <TextBox x:Name="Status_box_MODEL1" FontSize="30" Width="700" Margin="20,5,0,0" IsReadOnly="True"/>
+                        </StackPanel>
+                        <StackPanel Background="White" Margin="0,0,0,0" >
+                            <Image Source="Images/MES_picture.png"  HorizontalAlignment="Center" Height="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border x:Name="MODEL2_show" BorderBrush="Gray" BorderThickness="1"  Padding="5" Margin="5" Visibility="Collapsed" Width="1341">
+                    <StackPanel>
+                    <StackPanel Orientation="Horizontal" Visibility="Visible">
+                            <StackPanel Orientation="Vertical" Margin="0,0,0,0">
+                                <TextBlock Text="PCB" FontSize="30" Visibility="Hidden"/>
+                                <TextBlock x:Name="Serial_Number" Text="Serial Nuber :" FontSize="30" Margin="0,10,0,0" Foreground="White"/>
+                                <TextBlock x:Name="Data_RD1" Text="Data_RD1 :" FontSize="30" Margin="0,10,0,0" Foreground="White"/>
+                                <TextBlock x:Name="Data_RD2" Text="Data_RD2 :" FontSize="30" Margin="0,11,0,0" Foreground="White"/>
+                                <TextBlock x:Name="Data_RD3" Text="Data_RD3 :" FontSize="30" Margin="0,12,0,0" Foreground="White"/>
+                                <TextBlock x:Name="Data_RD4" Text="Data_RD4 :" FontSize="30" Margin="0,13,0,0" Foreground="White"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="536" >
+                                <TextBlock Text="PCB_1" FontSize="30" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBox x:Name="Serial_Number_PCB_1" FontSize="30" Width="536" Margin="0,10,0,0" IsReadOnly="True"/>
+                                <TextBox x:Name="Data_RD1_PCB_1" FontSize="30" Width="536" Margin="0,10,0,0" IsReadOnly="True" />
+                                <TextBox x:Name="Data_RD2_PCB_1" FontSize="30" Width="536" Margin="0,10,0,0" IsReadOnly="True"/>
+                                <TextBox x:Name="Data_RD3_PCB_1" FontSize="30" Width="536" Margin="0,10,0,0" IsReadOnly="True"/>
+                                <TextBox x:Name="Data_RD4_PCB_1" FontSize="30" Width="536" Margin="0,10,0,0" IsReadOnly="True"/>
+
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="20,0,0,0" Width="536">
+                                <TextBlock Text="PCB_2" FontSize="30" HorizontalAlignment="Center" Foreground="White"/>
+                                <TextBox x:Name="Serial_Number_PCB_2" FontSize="30" Width="536" Margin="0,10,0,0"  HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="Data_RD1_PCB_2" FontSize="30" Width="536" Margin="0,10,0,0"  HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="Data_RD2_PCB_2" FontSize="30" Width="536" Margin="0,10,0,0"  HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="Data_RD3_PCB_2" FontSize="30" Width="536" Margin="0,10,0,0"  HorizontalAlignment="Left" IsReadOnly="True" />
+                                <TextBox x:Name="Data_RD4_PCB_2" FontSize="30" Width="536" Margin="0,10,0,0"  HorizontalAlignment="Left" IsReadOnly="True" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,40">
+                            <TextBlock Text="Status :" FontSize="30"  Foreground="White"/>
+                            <TextBox x:Name="Status_box_MODEL2" Width="700" FontSize="30" Margin="20,5,0,0" IsReadOnly="True"/>
+                        </StackPanel>
+                        <StackPanel Background="White" Margin="0,0,0,0">
+                            <Image Source="Images/MES_picture.png"  HorizontalAlignment="Center" Height="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>                
+                
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="5" Margin="5">
+                    <StackPanel Orientation="Vertical" Margin="10,10,10,10"  >
+                        <TextBlock Text="Result : " FontSize="30" Foreground="White"/>
+                        <ScrollViewer x:Name="Scroll_view" HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      Width="750"
+                      Height="615"
+                      Background="White"
+                      BorderBrush="Gray"
+                      BorderThickness="1">
+                            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="5" Padding="5" Margin="5">
+                                <TextBox Text="Result Here..."                  
+                                     TextWrapping="NoWrap"
+                                     AcceptsReturn="True"
+                                     IsReadOnly="True"
+                                     Background="White"
+                                     FontSize="25"
+                                     x:Name="Result"/>
+                            </Border>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+            <StackPanel Background="#464d53" Height="66" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

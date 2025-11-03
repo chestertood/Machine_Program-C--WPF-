@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="WpfApp1.Page1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d"             
+             >
+
+    <Grid Background="#383a35" >
+        <!--"#1b3666"  #db2323 #f2d291-->
+        <StackPanel>
+            <StackPanel Background="#de3940" Height="66" Orientation="Horizontal">
+                <!--<Image Source="Images/Icon_program.ico" Height="66" HorizontalAlignment="Left"/>-->
+                <TextBlock Text="MY PROGRAM" FontSize="45" Foreground="White" Margin="10,0,0,0"/>             
+            </StackPanel>            
+            <WrapPanel Orientation="Horizontal" Margin="120,20,100,0" x:Name="Checking" Visibility="Visible" HorizontalAlignment="Center">
+                <WrapPanel Orientation="Vertical" Margin="0,0,0,0">
+                    <TextBlock Text="Check Scanner Connection "  FontSize="30" Margin="0,9,0,0" Foreground="White"/>
+                    <TextBlock Text="Check Camera Connection"  FontSize="30" Margin="0,11,0,0" Foreground="White"/>
+                    <TextBlock Text="Check MES Connection "  FontSize="30" Margin="0,17,0,0" Foreground="White"/>
+                </WrapPanel>
+                <WrapPanel Orientation="Vertical" Margin="0,6,0,0">
+                    <WrapPanel Orientation="Horizontal">
+                        <TextBox x:Name="nameBox2" Width="200" Height="30" Margin="0,10,0,10" IsReadOnly="True"/>
+                        <local:Led x:Name="led2" Width="33" Height="33" Margin="10"/>
+                    </WrapPanel>
+                    <WrapPanel Orientation="Horizontal">
+                        <TextBox Name="nameBox3" Width="200" Height="30" Margin="0,10,0,10" IsReadOnly="True"/>
+                        <local:Led x:Name="led3" Width="33" Height="33" Margin="10"/>
+                    </WrapPanel>
+                    <WrapPanel Orientation="Horizontal">
+                        <TextBox Name="nameBox4" Width="200" Height="30" Margin="0,10,0,10" IsReadOnly="True"/>
+                        <local:Led x:Name="led4" Width="33" Height="33" Margin="10"/>
+                    </WrapPanel>
+                </WrapPanel >
+            </WrapPanel>
+            <WrapPanel HorizontalAlignment="Center" Margin="0,10,0,0">
+                <Button x:Name="set_button"  Click="Config_Button_Click" Width="100" Height="50" Content="Setting"/>
+                <Button x:Name="Retry_button"  Click="Retry" Width="100" Height="50" Content="Retry"/>
+            </WrapPanel>
+            <StackPanel Background="#464d53" Height="66" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

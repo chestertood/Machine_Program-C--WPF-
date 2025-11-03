@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program.csproj", "{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Logfile.cs = Logfile.cs
+		MES.cs = MES.cs
+		PLC_comunication.cs = PLC_comunication.cs
+		Readfile.cs = Readfile.cs
+		TCP_Communication.cs = TCP_Communication.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{6D77E796-D3DE-4781-B8EE-D8D4D5789BC3}"
+	ProjectSection(SolutionItems) = preProject
+		MODEL1.cs = MODEL1.cs
+		MODEL2.cs = MODEL2.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE6C3B5-0DF4-4E84-B00C-ADA848DCB0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0E06664-23AA-4B7F-AA9C-7817582DC1E6}
+	EndGlobalSection
+EndGlobal

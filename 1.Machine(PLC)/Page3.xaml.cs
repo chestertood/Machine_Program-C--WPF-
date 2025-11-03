@@ -1,0 +1,129 @@
+﻿using Model;
+using service;
+using System.Diagnostics;
+using System.Windows;
+using System.Windows.Controls;
+using System.IO;
+using System.Windows.Media;
+
+namespace WpfApp1
+{
+    public partial class Page3 : UserControl
+    {
+        public string _product;
+        public string _EN;
+        
+        public Page3()
+        {
+            // Constructor for Page3, initializes components and sets up the page
+            InitializeComponent();
+            this.Loaded += Page3_Loaded;
+            _product = ((App)Application.Current).SelectedProduct;
+            _EN = ((App)Application.Current).EN;
+            EN_show.Text = _EN;
+            product_show.Text = _product;
+            ShowPCBsBasedOnProduct(_product);
+        }
+
+        //Event handler for the Loaded event of Page3
+        private void Page3_Loaded(object sender, RoutedEventArgs e)
+        {
+            var mainWindow = Window.GetWindow(this);
+            if (mainWindow != null)
+            {
+                mainWindow.WindowStartupLocation = WindowStartupLocation.Manual;
+                mainWindow.Left = 0;
+                mainWindow.Top = 150;
+            }
+        }
+
+        // Event handler for the "Apply" button click
+        private void Apply_Click(object sender, RoutedEventArgs e)
+        {
+            // Get the selected product and EN from the UI elements
+            string selectedProduct = product_show.Text;
+            string EN = EN_show.Text;
+
+            // Validate the EN input
+            ((App)Application.Current).SelectedProduct = selectedProduct;
+            ((App)Application.Current).EN = EN;
+            MessageBox.Show($"You have changed model to '{selectedProduct}'","Model config", MessageBoxButton.OK, MessageBoxImage.Information);
+            
+
+            var parentWindow = Window.GetWindow(this);
+            if (parentWindow != null)
+            {
+
+                if (parentWindow is MainWindow mainWin)
+                {
+                    if (mainWin.MainContent.Content is Page3 oldpage3)
+                    {
+                        // Stop the existing instances of MODEL1 and MODEL2 if they exist
+                        oldpage3.MODEL1?.stop();
+                        oldpage3.MODEL2?.stop();
+
+                    }
+                    mainWin.MainContent.Content = new Page3();
+                }
+            }
+        }
+
+        private void Registered_log_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string configpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config.ini");
+            var config = new FileConfig(configpath);
+            var path_log = config.Get("Path", "Log");
+            Process.Start(new ProcessStartInfo()
+            {
+                FileName = path_log,
+                UseShellExecute = true,
+                Verb = "open"
+            });
+        }
+        private void MES_log_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string configpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config.ini");
+            var config = new FileConfig(configpath);
+            var path_log = config.Get("Path", "MES_Log");
+            Process.Start(new ProcessStartInfo()
+            {
+                FileName = path_log,
+                UseShellExecute = true,
+                Verb = "open"
+            });
+        }
+        public MODEL1 MODEL1;
+        public MODEL2 MODEL2;
+        // Method to show the appropriate PCB based on the selected product
+        private void ShowPCBsBasedOnProduct(string selectedProduct)
+        {
+            if (selectedProduct == "MODEL1")
+            {
+                MODEL1_show.Visibility = Visibility.Visible;
+                MODEL2_show.Visibility = Visibility.Collapsed;
+                Scroll_view.Height = 675;
+                // Create and start the MODEL1 instance
+                MODEL1 = new MODEL1(this);
+                MODEL1.start();
+                MODEL1.run();
+
+            }
+            else if (selectedProduct == "MODEL2")
+            {
+                MODEL2_show.Visibility = Visibility.Visible;
+                MODEL1_show.Visibility = Visibility.Collapsed;
+                // Create and start the MODEL2 instance
+                MODEL2 = new MODEL2(this);
+                MODEL2.start();
+                MODEL2.run();
+            }
+            
+            else
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+
+    }
+}
