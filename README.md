@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/media/logo.png" width="72" alt="Machine Program logo" />
+
 # Machine Program
 
 **Scan the board, read the label, register it to MES — one station, one window.**
